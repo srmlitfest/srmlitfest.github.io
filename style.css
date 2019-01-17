@@ -195,9 +195,7 @@ body {
     .header-bar .site-branding {
         margin-left: 35px;
     }
- .lineup-artists-description-container {
-   margin: auto;
- }
+
     .site-navigation {
         position: relative;
         top: auto;
@@ -444,8 +442,6 @@ body {
 @media screen and (min-width: 768px) {
     .lineup-artists .lineup-artists-wrap {
         margin-top: 30px;
-        margin:auto!important;
-
     }
 
     .lineup-artists .featured-image {
@@ -1291,10 +1287,6 @@ body {
 }
 
 @media screen and (min-width: 576px){
-  .entry-title {
-    margin:auto!important;
-
-  }
     .tabs .tab-nav {
         padding: 20px;
     }
