@@ -12,9 +12,9 @@ body {
 }
 
 @font-face {
-    font-family: "mountains";
-    src: url(fonts/beyond_the_mountains.ttf);
-    src: url(fonts/beyond_the_mountains.otf);
+    font-family: "typewriters";
+    src: url(fonts/beyond_the_typewriters.ttf);
+    src: url(fonts/beyond_the_typewriters.otf);
     font-weight: 400;
 }
 
@@ -250,7 +250,7 @@ body {
 .hero-content .entry-header h2 {
     padding: 50px;
     margin: 0;
-    font-family: mountains;
+    font-family: typewriters;
     font-size:120px;
     background: #fff;
     -webkit-background-clip: text;
