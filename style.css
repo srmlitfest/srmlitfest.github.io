@@ -18,6 +18,12 @@ body {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "typewriter";
+    src: url(fonts/TravelingTypewriter.ttf);
+    font-weight: 400;
+}
+
 .d-col-n {
     position: relative;
     width: 100%;
