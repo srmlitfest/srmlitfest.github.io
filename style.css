@@ -18,12 +18,6 @@ body {
     font-weight: 400;
 }
 
-@font-face {
-    font-family: "typewriter";
-    src: url(fonts/TravelingTypewriter.ttf);
-    font-weight: 400;
-}
-
 .d-col-n {
     position: relative;
     width: 100%;
@@ -237,8 +231,8 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
   padding: 120px 0;
-background: linear-gradient(#000000a6, #2b13ec7a), url(https://i.pinimg.com/originals/89/49/fc/8949fc10348db2eaaef2acaa41cfd48a.jpg) no-repeat;
-background-size: cover;
+  background: linear-gradient(#000000a6, #8686867a), url(https://i.imgur.com/G4bgi36.jpg) no-repeat;
+  background-size: cover;
 }
 
 .hero-content .entry-header {
@@ -251,7 +245,7 @@ background-size: cover;
     margin: 0;
     font-family: mountains;
     font-size:120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -270,10 +264,10 @@ background-size: cover;
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
       font-size: 92px;
-word-spacing: 10px;
-font-family: 'Poppins', sans-serif;
-font-weight: 900;
-text-transform: uppercase;
+      word-spacing: 10px;
+      font-family: 'typewriter';
+      font-weight: 900;
+      text-transform: uppercase;
     }
 
     .hero-content .entry-header .entry-meta-date {
