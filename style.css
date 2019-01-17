@@ -195,7 +195,9 @@ body {
     .header-bar .site-branding {
         margin-left: 35px;
     }
-
+ .lineup-artists-description-container {
+   margin: auto;
+ }
     .site-navigation {
         position: relative;
         top: auto;
