@@ -41,7 +41,6 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .home-page {
-    background: url(images/middle-cover.jpg) no-repeat;
 }
 
 .site-header {
@@ -341,7 +340,6 @@ body {
     max-height: 80vh;
     width: 100%;
     padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
     background-size: 100% auto;
 }
 
@@ -824,7 +822,6 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
     background-size: cover;
 }
 
