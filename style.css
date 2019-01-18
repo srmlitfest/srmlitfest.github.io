@@ -12,9 +12,9 @@ body {
 }
 
 @font-face {
-    font-family: "typewriters";
-    src: url(fonts/beyond_the_typewriters.ttf);
-    src: url(fonts/beyond_the_typewriters.otf);
+    font-family: "typewriter";
+    src: url(fonts/beyond_the_typewriter.ttf);
+    src: url(fonts/beyond_the_typewriter.otf);
     font-weight: 400;
 }
 
@@ -250,7 +250,7 @@ body {
 .hero-content .entry-header h2 {
     padding: 50px;
     margin: 0;
-    font-family: typewriters;
+    font-family: typewriter;
     font-size:120px;
     background: #fff;
     -webkit-background-clip: text;
@@ -1955,4 +1955,23 @@ body {
 
 .icon-box-3 .entry-header::before {
     content: "03.";
+}
+
+@media only screen and (max-width: 600px) {
+
+.entry-title {
+  margin:auto!important;
+  max-width:100vw;
+}
+.lineup-artists-description-container {
+  margin: auto!important;
+}
+
+h2 {
+  font-size: 25px!important;
+}
+.row {
+  max-width:100vw;
+  margin-right:0!important;
+}
 }
