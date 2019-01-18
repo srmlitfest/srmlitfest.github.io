@@ -40,12 +40,12 @@
               </div><!-- .hamburger-menu -->
 
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">L'ART POUR LA VIE 2018</a></li>
-                <li><a href="#">SPEAKERS</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#"><i class="fas fa-search"></i></a></li>
-              </ul><!-- flex -->
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="javascript:speaker()">SPEAKERS</a></li>
+                        <li><a href="schedule.html">SCHEDULE</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                      </ul>
             </nav><!-- .site-navigation -->
           </div><!-- .col-12 -->
         </div><!-- .row -->
@@ -100,9 +100,9 @@
   </div><!-- .hero-content -->
 
   <div class="content-section">
-    <div class="container">
+    <div class="container" >
       <!-- container -->
-    <div class="row">
+    <div class="row" id="speakers">
       <div class="col-12">
         <div class="the-complete-lineup">
           <div class="lineup-artists">
@@ -366,7 +366,12 @@
           <script type="text/javascript" src="js/circle-progress.min.js"></script>
           <script type="text/javascript" src="js/jquery.countTo.min.js"></script>
           <script type="text/javascript" src="js/custom.js"></script>
-
+          <script type="text/javascript">
+          function speaker() {
+            var elmnt = document.getElementById("speakers");
+            elmnt.scrollIntoView();
+          }
+          </script>
 
         </div></div>
 </div></body></html>
