@@ -1483,7 +1483,8 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .blog-page .page-header {
-    background: url("images/blog-header-background.jpg") no-repeat;
+  background: url(https://i.imgur.com/G4bgi36.jpg) no-repeat;
+background-size: 100%;
 }
 
 .blog-list-page .single-blog-content {
