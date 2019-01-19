@@ -1553,6 +1553,7 @@ background-size: 100%;
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-meta span a {
     color: #050505;
+        font-weight: 900;
 }
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-description {
